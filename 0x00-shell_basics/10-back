@@ -1,2 +1,4 @@
 #!/bin/bash
-cd "$OLDPWD"
+previous_dir=$(pwd)
+cd -
+echo "Changed to previous directory: $previous_dir"
